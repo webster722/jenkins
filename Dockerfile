@@ -1,2 +1,3 @@
 FROM scratch
-CMD ["echo Hello World!!"]
+COPY hello /
+CMD ["/hello"]
